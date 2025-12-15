@@ -97,14 +97,14 @@
             // -----------------------------------------------------------------------------------------
             // | SYSR |BT_CLR|BT_NXT|BT_PRV|     |     |   |  `  |  7  |  8  |  9  |  0  | DEL |
             // | SHFT |      |      | UP   |     |     |   | PGUP|  4  |  5  |  6  |  -  |  =  |
-            // | CTRL |      |  LFT | DWN  | RGT |     |   | PGDN|  1  |  2  |  3  | HOME| END |
-            //                      | GUI | ALT | SPC |   | SPC |     |     |
+            // | CTRL |      |  LFT | DWN  | RGT |PSCRN|   | PGDN|  1  |  2  |  3  | HOME| END |
+            //                      | GUI | ALT | SPC |   | SPC |MENU |     |
 
             bindings = <
 &sys_reset     &bt BT_CLR &bt BT_NXT &bt BT_PRV    &trans     &trans       &kp GRAVE  &kp N7  &kp N8  &kp N9     &kp N0     &kp DEL
 &kp LEFT_SHIFT &trans     &trans     &kp UP        &trans     &trans       &kp PG_UP  &kp N4  &kp N5  &kp N6     &kp MINUS  &kp EQUAL
-&kp LCTRL      &trans     &kp LEFT   &kp DOWN      &kp RIGHT  &trans       &kp PG_DN  &kp N1  &kp N2  &kp N3     &kp HOME   &kp END
-                          &kp LGUI        &kp LEFT_ALT     &kp SPACE    &kp SPACE  &trans  &trans
+&kp LCTRL      &trans     &kp LEFT   &kp DOWN      &kp RIGHT  &kp PSCRN    &kp PG_DN  &kp N1  &kp N2  &kp N3     &kp HOME   &kp END
+                          &kp LGUI        &kp LEFT_ALT     &kp SPACE    &kp SPACE  &kp K_APP  &trans
             >;
         };
 

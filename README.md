@@ -25,6 +25,9 @@ A DIY wireless split keyboard based on the Corne layout, built for approximately
 **Total Cost**: $25.04 (excluding wires and screws)
 
 ## Current Keymap
+https://keymap-drawer.streamlit.app/
+<img width="900" height="1048" alt="my_keymap" src="https://github.com/user-attachments/assets/673ed645-75c8-4491-b1b3-04face0d5b5e" />
+
 
 ![image](https://github.com/user-attachments/assets/362ff580-5528-4f7a-ad09-1fa24acbc6c7)
 ![image](https://github.com/user-attachments/assets/3da97ceb-8e2a-43c5-a241-cf9ad4206688)
